@@ -75,7 +75,7 @@ fetch(`${API}/users/${user.id}`, {
 }
 ```
 
-## DELETE /message/:messageId
+## DELETE /users/:userId
 
 ### Request:
 
