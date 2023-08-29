@@ -1,5 +1,9 @@
 # Spray and Pray API Documentation
 
+```js
+const API = "https://spray-and-pray-backend.onrender.com"
+```
+
 ## GET /users
 
 ### Request:
