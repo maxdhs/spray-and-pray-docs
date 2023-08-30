@@ -58,6 +58,7 @@ fetch(`${API}/users/${user.id}`, {
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
     count: 3,
+    name: "Jhon",
   }),
 });
 ```
