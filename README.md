@@ -54,7 +54,7 @@ fetch(`${API}/users`, {
 
 ```js
 fetch(`${API}/users/${user.id}`, {
-  method: "POST",
+  method: "PUT",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
     count: 3,
